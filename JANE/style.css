@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    font-family: system-ui, sans-serif;
+    background-color: black;
+}
+main{
+    height: 170%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+section{
+    height: 90%;
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 15% 15% 15% 15% 40%;
+    grid-template-areas: 
+    "box1 box1 box2 box3 box4 "
+    "box1 box1 box2 box3 box5"
+    "box6 box7 box8 box8 box5"
+    "box6 box7 box8 box8 box9"
+    "box10 box10 box10 box11 box11"
+    ;
+}
+#box1{
+    padding: 20px;
+    border-radius: 20px;
+    grid-area: box1;
+     background-color: rgba(43, 42, 42, 0.726);
+}
+#box1 h3{
+    padding-top: 35px;
+    font-size: 22px;
+    font-weight: 600;
+}
+#box1 p{
+   padding-top: 10px;
+   font-size: 14px;
+}
+#top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#top h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+#top p{
+    font-size: 13px;
+}
+#top #img{
+ height: 50px;
+ width: 50px;
+ border-radius: 50px;
+}
+#top #img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    object-position: 0% 10%;
+}
+#box2{
+    border-radius: 20px;
+    grid-area: box2;
+    background-image: url(./img-2.png);
+    background-size: cover;
+}
+#box3{
+    border-radius: 20px;
+    grid-area: box3;
+    background-image: url(./img-3.png);
+    background-size: cover;
+}
+#box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    grid-area: box4;
+    background-color: rgba(43, 42, 42, 0.726);
+}
+#box4 i{
+    cursor: pointer;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+#box5{
+    padding: 30px;
+    border-radius: 20px;
+    grid-area: box5;
+    background-color: rgba(43, 42, 42, 0.726);
+}
+#box5 p{
+    padding-top: 10px;
+ padding-bottom: 20px;
+}
+#box5 h3{
+ font-weight: 600;
+}
+#box5 #arrow1{
+   cursor: pointer;
+    padding-top: 90px;
+    padding-left: 160px;
+}
+#arrow1 i{
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
+#box6{
+    border-radius: 20px;
+    grid-area: box6;
+   background-image: url(./img-1.png);
+   background-size: cover;
+}
+#box7{
+    padding: 30px 0px;
+    border-radius: 20px;
+    grid-area: box7;
+    text-align: center;
+    background-color: rgba(43, 42, 42, 0.726);
+}
+#box7 #icon{
+    width: 100%;
+    height: 80%;
+}
+#icon img{
+    height: 60%;
+    width: 80%;
+    object-fit: cover;
+}
+#box7 h3{
+    padding-bottom: 60px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+#box7 p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+#box8{
+    border-radius: 20px;
+    grid-area: box8;
+    background-image: url(./img-4.png);
+    background-size: cover;
+}
+#box9{
+    border-radius: 20px;
+    grid-area: box9;
+    background-image: url(./icon-1.png);
+    background-size: cover;
+    background-position: -11px 10px;
+    background-color: rgba(43, 42, 42, 0.726);
+}
+#box10{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+    padding: 50px 20px;
+    border-radius: 20px;
+    grid-area: box10;
+    background-color: rgba(43, 42, 42, 0.726);
+}
+#box10 #left h3{
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#box10 #left p{
+    font-size: 14px;
+}
+#box10 #left{
+    height: 100%;
+ width: 70%;
+}
+#box10 #right{
+   height: 100%;
+ width: 30%;
+
+}
+#box10 img{
+    height: 100%;
+    object-fit: cover;
+}
+#box11{
+    padding: 50px 30px;
+    height: 70%;
+    border-radius: 20px;
+    grid-area: box11;
+    background-color: rgba(43, 42, 42, 0.726);
+}
+#box11 p{
+ font-size: 14px;
+ padding-bottom: 10px;
+}
+#box11 h3{
+   font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#arrow2{
+    padding-left: 420px;
+    cursor: pointer;
+}
+#arrow2 i{
+    font-size: 18px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
